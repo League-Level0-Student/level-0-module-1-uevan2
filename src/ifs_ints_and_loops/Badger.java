@@ -4,8 +4,20 @@ import javax.swing.JOptionPane;
 
 public class Badger {
 	public static void main(String[] args) {
-		JOptionPane.showMessageDialog(null, 
-				);
+		
+		for(int y=1;y<12; y++ )
+		{
+			System.out.print("badger, ");
+		}
+		for(int z =1; z<3; z++)
+			{
+				System.out.print("mushroom, ");
+			}
+			System.out.println();
+			
+		
+		
+		
 	}
 
 }
